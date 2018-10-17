@@ -4,10 +4,20 @@
     <title>bike-api</title>
   </head>
   <body>
-    <p>bike-api</p>
-    <div>
-      <ul class="list">
-      </ul>
+    <div class="container">
+      <p>bike-api</p>
+
+      <form id="search-form">
+        <div class="form-group">
+          <label for="color">Color of Bike</label>
+          <input id="color" type="text">
+        </div>
+        <button type="submit" class="btn btn-info">Search</button>
+      </form>
+      <div id="result">
+        <ul class="list">
+        </ul>
+      </div>
     </div>
   </body>
 </html>
